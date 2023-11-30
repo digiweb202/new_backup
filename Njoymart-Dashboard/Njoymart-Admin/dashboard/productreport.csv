@@ -1,0 +1,6 @@
+ID,Name,desc,price,status,"Category Name",Sub_cat_name
+1,shirt,"desc for shirt2",500,active,Fashion,Men
+6,shirt,"Female shirt",1000,active,Fashion,Female
+335,Shirt,"shirt desc female",500,active,Fashion,Female
+336,"new prd","new prd desc",2000,active,Fashion,Female
+337,product,"product desc",100,active,Fashion,Kids

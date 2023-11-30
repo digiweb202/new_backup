@@ -1,0 +1,37 @@
+//Hotline Page code
+
+ <?php
+
+                    $conn = new mysqli('localhost', 'root', '', 'demo_db');
+
+                    // Check connection
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+
+
+                    $sql = "SELECT hotline_number, support_hours FROM hotline_table"; // Adjust the query to your table structure
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        // Output data of each row
+                        while ($row = $result->fetch_assoc()) {
+                            $hotlineNumber = $row["hotline_number"];
+                            $supportHours = $row["support_hours"];
+                        }
+                    }
+                    ?>
+
+                    <div class="hotline d-none d-lg-flex">
+                        <img src="assets/imgs/theme/icons/icon-headphone.svg" alt="hotline">
+                        <p>
+                            <?php
+                            echo $hotlineNumber . "<span>" . $supportHours . "</span>";
+                            ?>
+                        </p>
+                    </div>
+
+                    <?php
+                    // Close the connection
+                    $conn->close();
+                    ?>

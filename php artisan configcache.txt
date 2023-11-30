@@ -1,0 +1,23 @@
+php artisan config:cache
+php artisan migrate 
+generate app key
+php artisan key:generate
+php artisan storage:link
+php artisan serve
+
+
+base64:SbzM2tzPsCSlpTEdyaju8l9w2C5vmtd4fNAduiLEqng=
+
+
+Database Name:
+EDB
+Database Username:
+root	
+Database Password:
+
+
+UserName:demouser	
+email: demouser@gmail.com
+password:demouser
+
+https://martnew.njoymart.in/

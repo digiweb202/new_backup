@@ -1,0 +1,9 @@
+
+"Order ID / Invoice Number","Order date","shipping address",state,"Customer Name","Customer Email","Customer Mobile","Product name","Product Price",quantity,sub_total,CGST,SGST,IGST,TCS_CGST,TCS_SGST,TCS_IGST,TDS,"Final Amount"
+105,"2023-08-18 10:03:24",,GUJARAT,abc,abc@gmail.com,1234567890,shirt,500.00,1,500,45,45,0,2.5,2.5,0,5,580
+105,"2023-08-18 10:03:24",,GUJARAT,abc,abc@gmail.com,1234567890,shirt,1000.00,1,1000,90,90,0,5,5,0,10,1160
+106,"2023-08-18 10:09:13",,Rajasthan,abc,abc@gmail.com,1234567890,shirt,500.00,1,500,0,0,90,0,0,5,5,580
+106,"2023-08-18 10:09:13",,Rajasthan,abc,abc@gmail.com,1234567890,shirt,1000.00,1,1000,0,0,180,0,0,10,10,1160
+
+
+
